@@ -9,6 +9,7 @@ class ProjectDetailsPage():
     team_member_last_name_field_css = "/html/body/div[4]/div[3]/div/div[2]/form/div/div/div/div/div/div/div[2]/div/div[2]/div[2]/input"
     team_member_email_field_css = "/html/body/div[4]/div[3]/div/div[2]/form/div/div/div/div/div/div/div[2]/div/div[3]/div/div[2]/input"
     add_team_member_button_css_selector = 'div.MuiDrawer-root:nth-child(63) > div:nth-child(3) > div:nth-child(1) > div:nth-child(3) > button:nth-child(1)'
+    
     def __init__(self, browser):
         self.browser = browser
     
