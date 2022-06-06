@@ -1,9 +1,11 @@
 # gcx
-Requires python 3.10.1 with `pytest`, `selenium`, `webdriver-manager` packages.
+Requires python 3.10.1 with `pytest`, `selenium`, `webdriver-manager` packages 
+and `chromedriver` executable installed to `/usr/local/bin/chromedriver`.
 
 Must have environment variables set for `GCXUSERNAME` and `GCXPASSWORD`.
 
 To run the tests, run `pytest -s` from the project root directory.
+
 
 TODO:
 - implement BasePage
